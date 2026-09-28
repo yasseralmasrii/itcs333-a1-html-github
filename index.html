@@ -1,19 +1,35 @@
 <!DOCTYPE html>
-<!-- TODO: add lang attribute to the html element -->
-<html>
+<html lang="en">
 <head>
-  <!-- TODO: add charset meta and a <title> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
 </head>
 <body>
-  <!--
-    ITCS333 A1 starter. Replace this comment with your profile page.
-    Requirements (see README rubric):
-      - semantic elements: header, nav, main, footer
-      - h1 then h2 heading hierarchy
-      - a link to about.html and one external link
-      - an image with alt text (put the file in assets/)
-      - one ordered list and one unordered list (across both pages)
-  -->
-  <p>TODO: build your profile page here.</p>
+  <header>
+    <h1>My Profile</h1>
+    <nav>
+      <a href="about.html">About Me</a>
+      <a href="https://github.com/yasseralmasrii" target="_blank" rel="noopener noreferrer">My GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <img src="assets/PersonalPhoto.jpg" alt="Portrait of Yasser Al Masri">
+    <p><strong>Yasser Al Masri</strong>, Software Engineering</p>
+
+    <section>
+      <h2>Favorite Programming Languages</h2>
+      <ol>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Java</li>   
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Yasser Al Masri</p>
+  </footer>
 </body>
 </html>
